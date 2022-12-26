@@ -1,0 +1,23 @@
+.container__person{
+    margin: 80px 0;
+    display: grid;
+    grid-template-areas: "colum1 colum2";
+    grid-template-columns: repeat(1fr);
+    grid-gap: 6px 6px;
+}
+
+.body__card{
+    display: flow-root;
+    background-color: #FFE81F;
+}
+
+h2{
+    padding: 40px 0px;
+}
+
+@media screen and (max-width: 475px){
+    .container__person{
+        margin: 40px 0px;
+        grid-template-columns: 0.8fr 0.8fr;
+    }
+}
